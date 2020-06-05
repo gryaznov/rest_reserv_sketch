@@ -1,0 +1,21 @@
+AllCops:
+  RubyInterpreters:
+    - ruby
+
+Layout/LineLength:
+  Description: 'Checks that line length does not exceed the configured limit.'
+  Enabled: true
+  Max: 100
+
+Style/Documentation:
+  Description: 'Document classes and non-namespace modules.'
+  Enabled: false
+
+Style/NumericLiterals:
+  Description: Add underscores to large numeric literals to improve their readability.
+  Enabled: false
+
+Metrics/BlockLength:
+  Description: 'Avoid long blocks with many lines.'
+  Exclude:
+    - 'spec/**
